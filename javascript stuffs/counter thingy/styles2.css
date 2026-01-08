@@ -1,0 +1,25 @@
+.label {
+    margin: 0;
+    font-size: 10em;
+    display: block;
+    text-align: center;
+    font-family: Arial, sans-serif
+}
+
+.buttoncontainer {
+    text-align: center;
+}
+
+.buttons {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background-image: linear-gradient(white, rgb(180, 180, 180));
+    border: 2px solid rgb(172, 172, 172);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background-image: linear-gradient(white, rgb(220, 220, 220));
+    border: 2px solid rgb(208, 208, 208);
+}
